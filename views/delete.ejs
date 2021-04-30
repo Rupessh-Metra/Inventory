@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- Font Awesome -->
+      <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+      <!-- Theme style -->
+      <link rel="stylesheet" href="dist/css/adminlte.min.css">
+      <!-- Google Font: Source Sans Pro -->
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+      
+    </head>
+<body>
+    <h1><a href ="/" class = "c2" >Home Page</a></h1>
+    
+    <div class="wrapper">
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			
+			<section class="content-header">
+				<h1>Delete Product</h1>
+			</section>
+			
+			<section class="content">
+				<div class="card">
+                    <div class="card-header">
+                        
+                        <div class="card-body table-responsive p-0" style="height: 400px;">
+                            <form action="/delete" method="POST">
+                                <label>Product ID: </label>
+                                <input type="text" placeholder="Enter product ID" name="id"><br><br>
+                        
+                                <button id = "delete">Delete</button>
+                            </form> 
+                            
+                        
+                            </div>
+                      
+                
+                    </div>
+                </div>
+
+			</section>
+		</div>
+		
+	</div>
+    
+    
+</body>
+</html>
